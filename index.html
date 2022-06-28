@@ -1,0 +1,690 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Profit Machine</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@100;200;300;400;500;600;700&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap 5 Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="bg-dark p-0">
+        <!-- Spinner Start -->
+        <div id="spinner"
+            class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="index.html" class="navbar-brand p-0">
+                    <h1><i class="fa fa-comments-dollar text-primary"></i> <span class="text-primary">Profit</span>
+                        Machine
+                    </h1>
+                    <!-- <img src="img/logo.png" alt=""> -->
+                </a>
+                <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="#" class="nav-item nav-link active">Home</a>
+                        <a href="#about" class="nav-item nav-link">About</a>
+                        <a href="#plans" class="nav-item nav-link">Plans</a>
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <a href="#" class="btn btn-primary rounded-pill text-dark py-2 px-4 ms-lg-5">Register</a>
+                    <a href="#" class="btn btn-outline-primary rounded-pill text-white py-2 px-4 ms-lg-2">Login</a>
+                </div>
+            </nav>
+
+            <div class="container-fluid bg-dark hero-header">
+                <div class="container">
+                    <div class="row vh-100 d-flex align-items-center pt-lg-5">
+                        <div class="col-lg-7 text-center text-lg-start">
+                            <h1 class="text-white mb-4 animated zoomIn display-3">Invest your money for your <span
+                                    class="text-primary">Future</span>
+                            </h1>
+                            <p class="text-white pb-3 animated zoomIn secondary-font">Lorem ipsum dolor sit amet
+                                consectetur, adipisicing elit. Odit ullam facilis tenetur, natus harum beatae
+                                accusantium incidunt suscipit quas perferendis.</p>
+                            <a href=""
+                                class="btn btn-outline-primary rounded-pill border-2 py-3 px-5 animated slideInRight secondary-font fs-5">Get
+                                Started Now</a>
+                        </div>
+                        <div class="col-lg-5 text-center text-lg-end">
+                            <img class="img-fluid animated zoomIn float-ani" src="img/hero.svg" alt="hero image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- About Start -->
+        <div class="container-fluid py-6" id="about">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 wow zoomIn p-5" data-wow-delay="0.1s">
+                        <img class="img-fluid float-ani" src="img/about.svg">
+                    </div>
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="d-inline-block border rounded-pill text-primary px-4 mb-3 fs-5">Who we are</div>
+                        <h2 class="mb-4 text-white">Welcome to <span class="text-primary">Profit Machine</span></h2>
+                        <p class="mb-4 text-muted secondary-font">Lorem ipsum dolor sit, amet consectetur adipisicing
+                            elit.
+                            Perspiciatis soluta at laboriosam tempore dignissimos maiores eum! Earum amet vitae dolorum!
+                            Provident vel vero sed porro sapiente assumenda quas quasi similique commodi. Hic impedit
+                            nesciunt, doloribus sed est obcaecati ullam blanditiis? Adipisci suscipit sit laborum amet
+                            placeat expedita minima beatae quos.</p>
+                        <div class="row g-3 mb-4">
+                            <div class="col-12 d-flex">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                    <i class="fa fa-chart-bar text-dark"></i>
+                                </div>
+                                <div class="ms-2">
+                                    <h4 class="mt-2 text-white secondary-font">Innovative Plans</h4>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                    <i class="fa fa-user-clock text-dark"></i>
+                                </div>
+                                <div class="ms-2">
+                                    <h4 class="mt-2 text-white secondary-font">24/7 support</h4>
+                                </div>
+                            </div>
+                            <div class="col-12 d-flex">
+                                <div class="flex-shrink-0 btn-lg-square rounded-circle bg-primary">
+                                    <i class="fa fa-check text-dark"></i>
+                                </div>
+                                <div class="ms-2">
+                                    <h4 class="mt-2 text-white secondary-font">Licensied and Cerified</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="btn btn-primary rounded-pill py-2 px-5 fs-5 fw-bold text-dark mt-2 secondary-font"
+                            href="">Read
+                            More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Features Start -->
+        <div class="container-fluid bg-primary py-6 features">
+            <div class="container">
+                <div class="row g-5">
+                    <div class="col-lg-5 wow fadeInUp d-flex align-items-center" data-wow-delay="0.1s">
+
+                        <div class="features-left">
+                            <div class="services d-inline-block rounded-pill text-dark px-4 mb-3">Services</div>
+                            <h2 class="mb-4">Our Main Features</h2>
+                            <p class="secondary-font">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eius
+                                nisi
+                                laudantium autem
+                                recusandae accusamus sapiente cumque, pariatur ab, quod, quaerat harum dignissimos
+                                dolores
+                                velit asperiores saepe a illum maxime! Inventore?
+                            </p>
+                            <a class="btn btn-dark rounded-pill fs-5 fw-bold py-2 px-5 mt-2 secondary-font" href="">Get
+                                started now!</a>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-7">
+                        <div class="row g-5">
+                            <div class="col-sm-6 wow fadeIn each-feature p-3 text-center" data-wow-delay="0.1s">
+                                <div class="px-3">
+                                    <div
+                                        class="d-flex align-items-center justify-content-center mb-3 bg-dark rounded-pill p-3">
+
+                                        <i class="fa fa-users fa-2x text-white me-3"></i>
+
+                                        <h6 class="mb-0 fs-4 fw-bold text-white">Referral Program</h6>
+                                    </div>
+                                    <span class="secondary-font text-dark">Lorem ipsum dolor sit amet,
+                                        consectetur
+                                        adipisicing elit.
+                                        Totam cumque.</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn each-feature p-3 text-center" data-wow-delay="0.1s">
+                                <div class="px-3">
+                                    <div
+                                        class="d-flex align-items-center justify-content-center mb-3 bg-dark rounded-pill p-3">
+
+                                        <i class="fa fa-headset fa-2x text-white me-3"></i>
+
+                                        <h6 class="mb-0 fs-4 fw-bold text-white">24/7 Support</h6>
+                                    </div>
+                                    <span class="secondary-font text-dark">Lorem ipsum dolor sit amet,
+                                        consectetur
+                                        adipisicing elit.
+                                        Totam cumque.</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn each-feature p-3 text-center" data-wow-delay="0.1s">
+                                <div class="px-3">
+                                    <div
+                                        class="d-flex align-items-center justify-content-center mb-3 bg-dark rounded-pill p-3">
+
+                                        <i class="fa fa-globe-asia fa-2x text-white me-3"></i>
+
+                                        <h6 class="mb-0 fs-4 fw-bold text-white">Global Business</h6>
+                                    </div>
+                                    <span class="secondary-font text-dark">Lorem ipsum dolor sit amet,
+                                        consectetur
+                                        adipisicing elit.
+                                        Totam cumque.</span>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 wow fadeIn each-feature p-3 text-center" data-wow-delay="0.1s">
+                                <div class="px-3">
+                                    <div
+                                        class="d-flex align-items-center justify-content-center mb-3 bg-dark rounded-pill p-3">
+
+                                        <i class="fa fa-chart-line fa-2x text-white me-3"></i>
+
+                                        <h6 class="mb-0 fs-4 fw-bold text-white">Profitable Program</h6>
+                                    </div>
+                                    <span class="secondary-font text-dark">Lorem ipsum dolor sit amet,
+                                        consectetur
+                                        adipisicing elit.
+                                        Totam cumque.</span>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Features End -->
+
+        <!-- Pricing starts -->
+
+        <div class="container-fluid pricing py-5" id="plans">
+            <div class="container py-5">
+                <center class="wow fadeInDown">
+                    <div class="d-inline-block border rounded-pill text-primary px-4 mb-3 fs-5 text-center">Plans</div>
+                </center>
+                <h2 class="mb-4 text-white text-center">Our <span class="text-primary">Investment</span> Plans</h2>
+
+                <div class="row mt-5">
+                    <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="pricing-table-3 basic">
+                            <div class="pricing-table-header">
+                                <h4 class="text-white">Bronze Plan</h4>
+                            </div>
+                            <div class="price"><i class="text-dark fa fa-money-bill-wave fa-3x"></i></div>
+                            <div class="pricing-body mt-4">
+                                <ul class="pricing-table-ul">
+                                    <li>Up to 20% hourly</li>
+                                    <li>Principal return everyday</li>
+                                    <li>Down to 5% for daily</li>
+                                    <li>Registered company</li>
+                                    <li>Get started now</li>
+                                </ul><a href="#" class="view-more rounded-pill">Buy now!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="pricing-table-3 basic">
+                            <div class="pricing-table-header">
+                                <h4 class="text-white"><strong>Silver Plan</strong></h4>
+                            </div>
+                            <div class="price"><i class="text-dark fa fa-chart-bar fa-3x"></i></div>
+                            <div class="pricing-body mt-4">
+                                <ul class="pricing-table-ul">
+                                    <li>Up to 20% hourly</li>
+                                    <li>Principal return everyday</li>
+                                    <li>Down to 5% for daily</li>
+                                    <li>Registered company</li>
+                                    <li>Get started now</li>
+                                </ul><a href="#" class="view-more rounded-pill">Buy now!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="pricing-table-3 basic">
+                            <div class="pricing-table-header">
+                                <h4 class="text-white"><strong>Gold Plan</strong></h4>
+                            </div>
+                            <div class="price"><i class="text-dark fa fa-cash-register fa-3x"></i></div>
+                            <div class="pricing-body mt-4">
+                                <ul class="pricing-table-ul">
+                                    <li>Up to 20% hourly</li>
+                                    <li>Principal return everyday</li>
+                                    <li>Down to 5% for daily</li>
+                                    <li>Registered company</li>
+                                    <li>Get started now</li>
+                                </ul><a href="#" class="view-more rounded-pill">Buy now!</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="pricing-table-3 basic">
+                            <div class="pricing-table-header">
+                                <h4 class="text-white"><strong>Platinum Plan</strong></h4>
+                            </div>
+                            <div class="price"><i class="text-dark fa fa-calendar-check fa-3x"></i></div>
+                            <div class="pricing-body mt-4">
+                                <ul class="pricing-table-ul">
+                                    <li>Up to 20% hourly</li>
+                                    <li>Principal return everyday</li>
+                                    <li>Down to 5% for daily</li>
+                                    <li>Registered company</li>
+                                    <li>Get started now</li>
+                                </ul><a href="#" class="view-more rounded-pill">Buy now!</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="pricing-table-3 basic">
+                            <div class="pricing-table-header">
+                                <h4 class="text-white"><strong>Bronze Plan</strong></h4>
+                            </div>
+                            <div class="price"><i class="text-dark fa fa-money-bill-wave fa-3x"></i></div>
+                            <div class="pricing-body mt-4">
+                                <ul class="pricing-table-ul">
+                                    <li>Up to 20% hourly</li>
+                                    <li>Principal return everyday</li>
+                                    <li>Down to 5% for daily</li>
+                                    <li>Registered company</li>
+                                    <li>Get started now</li>
+                                </ul><a href="#" class="view-more rounded-pill">Buy now!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="pricing-table-3 basic">
+                            <div class="pricing-table-header">
+                                <h4 class="text-white"><strong>Silver Plan</strong></h4>
+                            </div>
+                            <div class="price"><i class="text-dark fa fa-chart-bar fa-3x"></i></div>
+                            <div class="pricing-body mt-4">
+                                <ul class="pricing-table-ul">
+                                    <li>Up to 20% hourly</li>
+                                    <li>Principal return everyday</li>
+                                    <li>Down to 5% for daily</li>
+                                    <li>Registered company</li>
+                                    <li>Get started now</li>
+                                </ul><a href="#" class="view-more rounded-pill">Buy now!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="pricing-table-3 basic">
+                            <div class="pricing-table-header">
+                                <h4 class="text-white"><strong>Gold Plan</strong></h4>
+                            </div>
+                            <div class="price"><i class="text-dark fa fa-cash-register fa-3x"></i></div>
+                            <div class="pricing-body mt-4">
+                                <ul class="pricing-table-ul">
+                                    <li>Up to 20% hourly</li>
+                                    <li>Principal return everyday</li>
+                                    <li>Down to 5% for daily</li>
+                                    <li>Registered company</li>
+                                    <li>Get started now</li>
+                                </ul><a href="#" class="view-more rounded-pill">Buy now!</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-xl-3 col-lg-4 col-sm-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="pricing-table-3 basic">
+                            <div class="pricing-table-header">
+                                <h4 class="text-white"><strong>Platinum Plan</strong></h4>
+                            </div>
+                            <div class="price"><i class="text-dark fa fa-calendar-check fa-3x"></i></div>
+                            <div class="pricing-body mt-4">
+                                <ul class="pricing-table-ul">
+                                    <li>Up to 20% hourly</li>
+                                    <li>Principal return everyday</li>
+                                    <li>Down to 5% for daily</li>
+                                    <li>Registered company</li>
+                                    <li>Get started now</li>
+                                </ul><a href="#" class="view-more rounded-pill">Buy now!</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Pricing ends -->
+
+        <!-- Stats start -->
+
+        <div class="container-fluid py-5" id="stats">
+            <div class="container py-5">
+                <center class="wow fadeInDown">
+                    <div class="d-inline-block border rounded-pill text-primary px-4 mb-3 fs-5 text-center">Stats</div>
+                </center>
+                <h2 class="mb-4 text-white text-center">Our Site <span class="text-primary">Statistics</span></h2>
+                <div class="row mt-4">
+                    <div class="col-md-3 col-sm-6 d-flex justify-content-center wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="each-stat">
+                            <div
+                                class="btn btn-outline-primary d-flex align-items-center justify-content-center mx-auto">
+                                <i class="fa fa-users"></i>
+                            </div>
+                            <p class="text-white fs-4 text-center mt-2 m-0">Total members</p>
+                            <p class="text-center secondary-font text-primary fs-3 fw-bold">4567+</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 d-flex justify-content-center wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="each-stat">
+                            <div
+                                class="btn btn-outline-primary d-flex align-items-center justify-content-center mx-auto">
+                                <i class="fa fa-money-bill-wave"></i>
+                            </div>
+                            <p class="text-white fs-4 text-center mt-2 m-0">Total deposits</p>
+                            <p class="text-center secondary-font text-primary fs-3 fw-bold">$456.76</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 d-flex justify-content-center wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="each-stat">
+                            <div
+                                class="btn btn-outline-primary d-flex align-items-center justify-content-center mx-auto">
+                                <i class="fa fa-dollar-sign"></i>
+                            </div>
+                            <p class="text-white fs-4 text-center mt-2 m-0">Total paid</p>
+                            <p class="text-center secondary-font text-primary fs-3 fw-bold">$759.98</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 d-flex justify-content-center wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="each-stat">
+                            <div
+                                class="btn btn-outline-primary d-flex align-items-center justify-content-center mx-auto">
+                                <i class="fa fa-users"></i>
+                            </div>
+                            <p class="text-white fs-4 text-center mt-2 m-0">Total members</p>
+                            <p class="text-center secondary-font text-primary fs-3 fw-bold">4567+</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Stats end -->
+
+
+        <!-- Client Start -->
+        <div class="container-fluid bg-primary py-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="container">
+                <div class="owl-carousel client-carousel">
+                    <a href="#"><img class="img-fluid" src="img/logo-1.png" alt=""></a>
+                    <a href="#"><img class="img-fluid" src="img/logo-2.png" alt=""></a>
+                    <a href="#"><img class="img-fluid" src="img/logo-3.png" alt=""></a>
+                    <a href="#"><img class="img-fluid" src="img/logo-4.png" alt=""></a>
+                    <a href="#"><img class="img-fluid" src="img/logo-5.png" alt=""></a>
+                    <a href="#"><img class="img-fluid" src="img/logo-6.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <!-- Client End -->
+
+
+        <!-- Testimonial Start -->
+        <div class="container-fluid py-6">
+            <div class="container">
+                <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <div class="d-inline-block border rounded-pill text-primary px-4 mb-3">Testimonial</div>
+                    <h2 class="mb-5 text-white">What Our Clients Say!</h2>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="testimonial-item rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p class="secondary-font">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet
+                            amet eirmod eos labore
+                            diam</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg">
+                            <div class="ps-3">
+                                <h6 class="mb-1 text-white">Justin Baiber</h6>
+                                <small>Profession</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p class="secondary-font">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet
+                            amet eirmod eos labore
+                            diam</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg">
+                            <div class="ps-3">
+                                <h6 class="mb-1">Client Name</h6>
+                                <small>Profession</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p class="secondary-font">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet
+                            amet eirmod eos labore
+                            diam</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg">
+                            <div class="ps-3">
+                                <h6 class="mb-1">Client Name</h6>
+                                <small>Profession</small>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-item rounded p-4">
+                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p class="secondary-font">Dolor et eos labore, stet justo sed est sed. Diam sed sed dolor stet
+                            amet eirmod eos labore
+                            diam</p>
+                        <div class="d-flex align-items-center">
+                            <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-4.jpg">
+                            <div class="ps-3">
+                                <h6 class="mb-1">Client Name</h6>
+                                <small>Profession</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+
+        <!-- Team Start -->
+        <div class="container-fluid py-6" id="contact">
+            <div class="container">
+                <div class="mx-auto text-center wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                    <div class="d-inline-block border rounded-pill text-primary px-4 mb-3">Our Team</div>
+                    <h2 class="mb-5 text-white">Meet Our Team Members</h2>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp mt-5 mt-lg-0" data-wow-delay="0.1s">
+                        <div class="team-item">
+                            <h5>Ana Linda</h5>
+                            <p class="mb-4 secondary-font">Investment Manager</p>
+                            <img class="img-fluid rounded-circle w-100 mb-4" src="img/team-1.jpg" alt="">
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square text-primary bg-dark m-1" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square text-primary bg-dark m-1" href=""><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square text-primary bg-dark m-1" href=""><i
+                                        class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp mt-5 mt-lg-0" data-wow-delay="0.3s">
+                        <div class="team-item">
+                            <h5>Dawson Bridge</h5>
+                            <p class="mb-4 secondary-font">Contact Manager</p>
+                            <img class="img-fluid rounded-circle w-100 mb-4" src="img/team-2.jpg" alt="">
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square text-primary bg-dark m-1" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square text-primary bg-dark m-1" href=""><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square text-primary bg-dark m-1" href=""><i
+                                        class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp mt-5 mt-lg-0" data-wow-delay="0.5s">
+                        <div class="team-item">
+                            <h5>Britain White</h5>
+                            <p class="mb-4 secondary-font">Payments Manager</p>
+                            <img class="img-fluid rounded-circle w-100 mb-4" src="img/team-3.jpg" alt="">
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square text-primary bg-dark m-1" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square text-primary bg-dark m-1" href=""><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square text-primary bg-dark m-1" href=""><i
+                                        class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp mt-5 mt-lg-0" data-wow-delay="0.7s">
+                        <div class="team-item">
+                            <h5>Justin Yates</h5>
+                            <p class="mb-4 secondary-font">Administrator</p>
+                            <img class="img-fluid rounded-circle w-100 mb-4" src="img/team-4.jpg" alt="">
+                            <div class="d-flex justify-content-center">
+                                <a class="btn btn-square text-primary bg-dark m-1" href=""><i
+                                        class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-square text-primary bg-dark m-1" href=""><i
+                                        class="fab fa-twitter"></i></a>
+                                <a class="btn btn-square text-primary bg-dark m-1" href=""><i
+                                        class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+
+        <!-- Footer Start -->
+        <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s"
+            style="margin-top: 6rem;">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6">
+                        <h5 class="text-white mb-4">Newsletter</h5>
+                        <p>Lorem ipsum dolor sit amet elit. Phasellus nec pretium mi. Curabitur facilisis ornare velit
+                            non vulpu</p>
+                        <div class="position-relative w-100 mt-3">
+                            <input class="form-control bg-primary border-0 rounded-pill w-100 ps-4 pe-5" type="text"
+                                placeholder="Your Email" style="height: 48px;">
+                            <button type="button" class="btn shadow-none position-absolute top-0 end-0 mt-1 me-2"><i
+                                    class="fa fa-paper-plane text-dark fs-4"></i></button>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3 text-center text-md-end">
+                        <h5 class="text-white mb-4">Get In Touch</h5>
+                        <p><i class="fa fa-map-marker-alt me-3"></i>456 street, Bangaluru, India</p>
+                        <p><i class="fa fa-phone-alt me-3"></i>+91 9876 543210</p>
+                        <p><i class="fa fa-envelope me-3"></i>support@profitmachine.biz</p>
+                        <div class="d-flex pt-2 justify-content-center justify-content-md-end">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-12 col-lg-3 text-center text-lg-end">
+                        <h5 class="text-white mb-4">Quick Link</h5>
+                        <a class="btn btn-link text-center text-lg-end" href="">About Us</a>
+                        <a class="btn btn-link text-center text-lg-end" href="">Contact Us</a>
+                        <a class="btn btn-link text-center text-lg-end" href="">Privacy Policy</a>
+                        <a class="btn btn-link text-center text-lg-end" href="">Terms & Condition</a>
+                        <a class="btn btn-link text-center text-lg-end" href="">FAQs</a>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container">
+                <div class="copyright">
+                    <div class="row">
+                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                            &copy; 2022 <a class="border-bottom" href="#">Profit Machine</a>, All Right Reserved,<br>
+                            Designed with ❤️ By <a class="border-bottom" target="_blank"
+                                href="https://unikbrushes.com">Unikbrushes</a>,
+                            <a class="border-bottom" target="_blank" href="https://amarkarthik.in.com">Amar Karthik</a>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="footer-menu mt-2">
+                                <a href="">Home</a>
+                                <a href="">Cookies</a>
+                                <a href="">Help</a>
+                                <a href="">FAQs</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top text-dark"><i
+                class="fa fa-arrow-up"></i></a>
+    </div>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
