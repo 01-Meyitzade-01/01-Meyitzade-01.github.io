@@ -165,6 +165,49 @@ html {
     transition: .5s;
 }
 
+.dropdown1 {
+    margin: 35px 0px 0px 20px;
+    position: relative;
+    font-weight: 500;
+}
+
+.dropdown2 {
+    margin: 20px 0px 0px 20px;
+    position: relative;
+    font-weight: 500;
+}
+
+.dropdown-menu {
+    position: absolute;
+}
+
+a.drop-nav {
+    color: white;
+    transition: 0.4s;
+}
+
+a.drop-nav:hover {
+    text-decoration: underline;
+    text-underline-offset: 38px;
+    text-decoration-thickness: 2px;
+}
+
+.dropdown2 a.drop-nav {
+    color: white;
+    transition: 0.4s;
+}
+
+.dropdown2 a.drop-nav:hover {
+    text-decoration: underline;
+    text-underline-offset: 23px;
+    text-decoration-thickness: 2px;
+}
+
+a.dropdown-item:hover {
+    background-color: var(--primary);
+    color: var(--dark);
+}
+
 .navbar .navbar-nav .nav-link:hover,
 .navbar .navbar-nav .nav-link.active {
     color: #FFFFFF;
@@ -193,10 +236,28 @@ html {
     max-height: 45px;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1200px) {
     .sticky-top.navbar {
         position: relative;
         background: #FFFFFF;
+    }
+
+    .dropdown1 {
+        margin: 0;
+        position: relative;
+    }
+
+    .dropdown2 {
+        margin: 0;
+        position: relative;
+    }
+
+    a.drop-nav:hover {
+        text-decoration: none;
+    }
+
+    .dropdown2 a.drop-nav:hover {
+        text-decoration: none;
     }
 
     .navbar .navbar-collapse {
@@ -225,7 +286,7 @@ html {
     }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
     .navbar {
         position: absolute;
         width: 100%;
