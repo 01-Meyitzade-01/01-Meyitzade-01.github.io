@@ -1,1 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+body{
+	font-family: 'Open Sans', sans-serif;
+	color: #ffffff;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+    font-weight: 400;
+    line-height: 1.7;
+    background-color: #101113;
+}
+#navbarSupportedContent{
+	font-size: 17px;
+}
+hr{
+	border-color: #cca354;
+}
+.card-profit{
+	padding: 50px;
+    border: 2px solid rgba(204, 163, 84, 0.5);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #000000;
+    box-shadow: 0 0 15px rgb(204 163 84 / 50%);
+}
+.iconuser{
+	background-color: #cca354;
+}
+.con{
+   background-color: #cca354;
+   box-shadow: 0 5px 15px rgb(204 163 84 / 50%);
+}
+.card-works{
+	border: 3px solid #cca354;
+    box-shadow: 0 0 15px 3px rgb(204 163 84 / 65%);
+    background-color: #000000;
+}
+#headingOne1, .collapse>.card-body, #heading, #heading1, #heading3, #heading5{
+	background-color: #343A40;
+}
 
+.work-text{
+	color:#cca354;
+}
+.card-pricing{
+ border: 3px solid #cca354;
+    background-color: #000000;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    height: 100%;
+    box-shadow: 0 0 15px rgb(204 163 84 / 50%);
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+h1{
+	font-size: 44px;
+    text-transform: capitalize;
+}
+.trans{
+ border: 3px solid #cca354;
+    background-color: #000000;
+}
+.tran{
+    background-color: #000000;
+    border: none;
+}
+.tran1{
+    background-color: #cca354;
+    border: 3px solid #cca354;
+    color: black;
+}
+.navbar{
+	background-color: #000000;
+}
+.card-table{
+ border: 3px solid #cca354;
+    background-color: #000000;
+    color: white;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    height: 100%;
+    box-shadow: 0 0 15px rgb(204 163 84 / 50%);
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+.stretched-link, .btn-huge{
+	background-color: #cca354;
+    box-shadow: 0px 10px 20px 0px rgb(0 0 0 / 15%);
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    color: #000000;
+}
+.Invest{
+	font-size: 50px;
+	font-weight: bold;
+}
+.first{
+color: white;
+}
+.second{
+	color: whitesmoke;
+	margin-bottom: 15%;
+
+}
+.flow{
+	 background:rgba(0,0,0,0.6);
+    opacity: 0;
+    transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.third{
+	margin-top: 10%;
+}
+.fifth{
+
+}
+.para{
+	font-size: 18px;
+}
+.btn-huge{
+    padding-top:15px;
+    padding-bottom:15px;
+}
+.navbar-brand{
+	font-size: 50px;
+}
+.blend{
+	font-size: 18px;
+}
+.opa{
+	opacity: 10 i !important;
+}
+.info{
+	margin-top: 7% !important;
+	margin-bottom: 7% !important;
+}
+.card{
+	border-radius: 8px;
+}
+.bg-invest1{
+	background-repeat: no-repeat;
+  background-position: center;
+  background-blend-mode: overlay;
+  background-size:cover;
+}
+.jumbotron{
+    background-color: inherit !important;
+    border-radius: 0 !important;
+   background-image: url(../img/about1.jpg) !important; background-repeat: no-repeat; background-position: center;background-blend-mode: overlay;background-size:cover;color: white
+}
