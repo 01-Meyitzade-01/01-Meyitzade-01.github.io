@@ -1,0 +1,738 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>HEXAGON3 LIMITED</title>
+<link rel="shortcut icon" href="images/icon.png">
+<link rel="stylesheet" type="text/css" href="css/style.css"/>
+<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+<link rel="stylesheet" type="text/css" href="font-awesome-4.5.0/css/font-awesome.css"/>
+<link rel="stylesheet" type="text/css" href="font-awesome-4.5.0/css/font-awesome.min.css"/>
+<script src='js/jquery-1.11.3.min.js'></script>
+<script src='js/wow.js'></script>
+<script>
+    wow = new WOW();
+    wow.init(); 
+</script>
+</head>
+<body>
+<div id="main-header">
+	<div id="sub-header">
+    	<div class="logo">
+        	<a href="?a=home"><img src="images/logo.png" style="width: 245px;"/></a>
+        </div>
+        <div class="header-right">
+            <div class="header-right-up">
+                
+				
+				   <div class="phone">
+                	<p><i class="fa fa-clock-o" aria-hidden="true"></i> Started Day: May 20, 2016</p>
+                </div>
+				
+				
+				<div class="phone">
+                	<p><i class="fa fa-phone-square" aria-hidden="true"></i> +447031958240</p>
+                </div>
+                <div class="phone">
+                	<p><i class="fa fa-envelope" aria-hidden="true"></i> admin@hivx.biz</p>
+                </div>
+				
+				
+				   <div class="phone">
+                	<a target="_blank" href="https://www.facebook.com/Hexagon3-Limited-1735008126710940/"><img src="images/fb.png"/></a>
+                </div>
+				
+				  <div class="phone">
+                	<a target="_blank" href="#"><img src="images/twiter.png"/></a>
+                </div>
+				
+				
+            
+            </div>
+            <div class="header-right-down">
+            	
+				
+				
+				
+                <div class="login-registration">
+                    <div class="login-now">
+                    	<a href="?a=login" class="a-link"><i class="fa fa-user" aria-hidden="true"></i> Log In</a>
+                    </div>
+                    <div class="register-now">
+                    	<a href="?a=signup" class="a-link"><i class="fa fa-user-plus" aria-hidden="true"></i> Registration</a>
+                    </div>
+                </div>
+                <div class="select-langu">
+
+
+<div id="google_translate_element"></div><script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+}
+</script><script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clr"></div>
+<div id="main-slider"><!--start slider-->
+	<div id="sub-slider">
+    	<div class="slid-left">
+        	<div class="menu">
+                <ul>
+
+                    <li class="slideInLeft animated wow"data-wow-duration="2s" data-wow-delay="0.4s" style="visibility: visible;animation-duration: 1.5s;">
+
+<a href="?a=home"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Home <i class="ol hover-home"></i></a>
+
+</li>
+                    <li class="slideInLeft animated wow"data-wow-duration="2s" data-wow-delay="0.6s" style="visibility: visible;animation-duration: 1.5s;"><a href="?a=cust&page=about"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> About Us <i class="ol hover-home-b"></i></a></li>
+
+
+ <li class="slideInLeft animated wow"data-wow-duration="2s" data-wow-delay="1.2s" style="visibility: visible;animation-duration: 1.5s;"><a href="?a=rules"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Rules<i class="ol hover-home-d"></i></a></li>
+
+
+                    <li class="slideInLeft animated wow"data-wow-duration="2s" data-wow-delay="1.2s" style="visibility: visible;animation-duration: 1.5s;"><a href="?a=cust&page=rate"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Rate Us <i class="ol hover-home-r"></i></a></li>
+
+                    <li class="slideInLeft animated wow"data-wow-duration="2s" data-wow-delay="1.4s" style="visibility: visible;animation-duration: 1.5s;"><a href="?a=faq"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> F.A.Q<i class="ol hover-home-e"></i></a></li>
+
+                    <li class="slideInLeft animated wow"data-wow-duration="2s" data-wow-delay="1.6s" style="visibility: visible;animation-duration: 1.5s;"><a href="?a=support"><i class="fa fa-arrow-circle-right" aria-hidden="true"></i> Contact Us <i class="ol hover-home-f"></i></a></li>
+
+                </ul>
+            </div>
+        </div>
+       <div class="slid-right">
+        	<div class="state-up">
+            	<div class="state-one"  style="margin-left: 37px;" >
+                	<div class="stdolar fadeInDown animated wow"data-wow-duration="2s" data-wow-delay="0.4s" style="visibility: visible;animation-duration: 1.5s;">
+                    	<p>30</p>
+                    </div>
+                    <div class="totalba fadeInUp animated wow"data-wow-duration="2s" data-wow-delay="0.4s" style="visibility: visible;animation-duration: 1.5s;">
+                    	<p>Running Days</p>
+                    </div>
+                </div>
+                <div class="toear">
+                	<div class="stdolar fadeInDown animated wow"data-wow-duration="2s" data-wow-delay="0.4s" style="visibility: visible;animation-duration: 1.5s;">
+                    	<p>567</p>
+                    </div>
+                    <div class="totalba fadeInUp animated wow"data-wow-duration="2s" data-wow-delay="0.4s" style="visibility: visible;animation-duration: 1.5s;">
+                    	<p>Total Accounts</p>
+                    </div>
+                </div>
+
+                <div  style="width: 122px;" class="totalde fadeInDown animated wow"data-wow-duration="2s" data-wow-delay="0.4s" style="visibility: visible;animation-duration: 1.5s;">
+                	<div class="stdolar">
+                    	<p>$ 86859.36</p>
+                    </div>
+                    <div class="totalba fadeInUp animated wow"data-wow-duration="2s" data-wow-delay="0.4s" style="visibility: visible;animation-duration: 1.5s;">
+                    	<p>Total Deposits</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slidrdown">
+            	<div class="totalde">
+                	<div class="stdolar fadeInDown animated wow"data-wow-duration="2s" data-wow-delay="0.4s" style="visibility: visible;animation-duration: 1.5s;">
+                    	<p>$ 7781.29</p>
+                    </div>
+                    <div class="totalba fadeInUp animated wow"data-wow-duration="2s" data-wow-delay="0.4s" style="visibility: visible;animation-duration: 1.5s;">
+                    	<p>Total Withdraws</p>
+                    </div>
+                </div>
+                <div class="state-one">
+                	<div class="stdolar fadeInDown animated wow"data-wow-duration="2s" data-wow-delay="0.4s" style="visibility: visible;animation-duration: 1.5s;">
+                    	<p>58</p>
+                    </div>
+                    <div class="totalba fadeInUp animated wow"data-wow-duration="2s" data-wow-delay="0.4s" style="visibility: visible;animation-duration: 1.5s;">
+                    	<p>Online Visitor</p></center>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!--end slider-->
+<div class="clr"></div>
+<div id="main-plan"><!--start plan-->
+	<div id="sub-plan">
+    	<div class="plan-head">
+        	<h5>investment plans</h5>
+            <img src="images/borderr.png"/>
+        </div>
+        <div class="plan-all">
+        	
+
+<div class="plan-one slideInUp animated wow"data-wow-duration="2s" data-wow-delay="0.6s" style="visibility: visible;animation-duration: 1.5s;">
+            	<div class="planheader">
+                	<h5>Daily Plan</h5>
+                </div>
+                <div class="plan-down">
+                	<div class="planper">
+                    	<div class="percent">
+                        	<h1>9.5%</h1>
+                        </div>
+                        <div class="daily">
+                        	<p>Daily For 15 Days</p>
+                        </div>
+                    </div>
+                    <div class="borderr">
+                    	<img src="images/borderw.png"/>
+                    </div>
+                    <div class="min-max">
+                    	<p>Minimum - Maximum Investment ( $20 - $100000 )</p>
+                    </div>
+                   <div class="borderrt">
+                    	<img src="images/borderw.png"/>
+                    </div>
+                    <div class="prin">
+                    	<p>Principal Included in plan</p>
+                    </div>
+                    <div class="borderrt">
+                    	<img src="images/borderw.png"/>
+                    </div>
+                    <div class="prin">
+                    	<p>Referral Commision :                      3%</p>
+                    </div>
+                    <div class="calculate">
+                    	<a href="?a=signup">Deposit</a>
+                    </div>
+                </div>
+            </div>
+           
+		   
+		   
+		   
+		   
+		   
+		   <div class="plan-one slideInUp animated wow"data-wow-duration="2s" data-wow-delay="0.4s" style="visibility: visible;animation-duration: 1.5s;">
+            	<div class="planheader">
+                	<h5>After Plan</h5>
+                </div>
+                <div class="plan-down">
+                	<div class="planper">
+                    	<div class="percent">
+                        	<h1>110%</h1>
+                        </div>
+                        <div class="daily">
+                        	<p>AFTER 5 DAYS</p>
+                        </div>
+                    </div>
+                    <div class="borderr">
+                    	<img src="images/borderw.png"/>
+                    </div>
+                    <div class="min-max">
+                    	<p>Minimum - Maximum Investment ( $20 - $100000 )</p>
+                    </div>
+                   <div class="borderrt">
+                    	<img src="images/borderw.png"/>
+                    </div>
+                    <div class="prin">
+                    	<p>Principal Included in plan</p>
+                    </div>
+                    <div class="borderrt">
+                    	<img src="images/borderw.png"/>
+                    </div>
+                    <div class="prin">
+                    	<p>Referral Commision :                      3%</p>
+                    </div>
+                    <div class="calculate">
+                    	<a href="?a=signup">Deposit</a>
+                    </div>
+                </div>
+            </div>
+			
+			
+			
+			
+			
+        </div>
+    </div>
+</div><!--end plan-->
+<div id="main-process">
+	<div id="sub-process">
+    	<div class="process-left">
+        	<div class="process-one fadeInLeft animated wow"data-wow-duration="2s" data-wow-delay="0.4s" style="visibility: visible;animation-duration: 1.5s;">
+            	<div class="process-head">
+                	<h5>01. Signup for Free</h5>
+                </div>
+                <div class="signtext">
+                	<p>Click the "register" button creates an account by filling out the fields with all the necessary data and finally confirm registration.</p>
+                </div>
+            </div>
+            <div class="borderround fadeIn animated wow"data-wow-duration="2s" data-wow-delay="0.4s" style="visibility: visible;animation-duration: 1.5s;">
+               <img src="images/borderro.png"/>
+            </div>
+            <div class="process-one fadeInLeft animated wow"data-wow-duration="2s" data-wow-delay="0.6s" style="visibility: visible;animation-duration: 1.5s;">
+            	<div class="process-head">
+                	<h5>02.  Earning's Plans</h5>
+                </div>
+                <div class="signtext">
+                	<p>Select the plan that is better for, then go to the deposit page and make payment of the sum that will make you earn with satisfaction, if you are a customer you can invest using your account balance.</p>
+                </div>
+            </div>
+        </div>	
+        <div class="process-round">
+        	<div class="process-text">
+            	<p>THE PROCESS<br/>
+			You Should Follow</p>
+            </div>
+        </div>
+        <div class="process-right">
+        	<div class="process-one fadeInRight animated wow"data-wow-duration="2s" data-wow-delay="0.4s" style="visibility: visible;animation-duration: 1.5s;">
+            	<div class="process-head">
+                	<h5>03.Your Earnings</h5>
+                </div>
+                <div class="signtext">
+                	<p>After that you will receive automatically your profit by the next day or on the 5th day, depending on the plan you choose.</p>
+                </div>
+            </div>
+            <div style="float:left;" class="borderround fadeIn animated wow"data-wow-duration="2s" data-wow-delay="0.4s" style="visibility: visible;animation-duration: 1.5s;">
+               <img src="images/borderro.png"/>
+            </div>
+            <div class="process-one fadeInRight animated wow"data-wow-duration="2s" data-wow-delay="0.6s" style="visibility: visible;animation-duration: 1.5s;">
+            	<div class="process-head">
+                	<h5>04.  Withdraw your profit</h5>
+                </div>
+                <div class="signtext">
+                	<p>The withdrawal process is very easy, thanks to our system all withdrawal are processed instaly after that you request it! No more waiting time for your money!</p>
+                </div>
+            </div>
+        </div>	
+    </div>
+</div>
+<div class="clr"></div>
+<div id="main-company">
+	<div id="sub-company">
+    	<div class="company-up">
+            <div class="company-left">
+                <div class="company-head">
+                    <h5>ABOUT OUR COMPANY</h5>
+                    <img src="images/borderr.png"/>
+                </div>
+                <div class="company-text">
+                    <p>
+					
+					Our company has developed and is offering to anyone interested in using a modern and cost-effective tool to invest online. Every customer of our company can use almost any amount to receive passive income regularly and this is very easy to do! It 'just go through a brief registration procedure, perform a transfer of money, and your money will begin immediately to work.
+<br><br>
+The very next day, or just a few days after the creation of a deposit, you will start receiving the profits according to the chosen plan. We place the capital on the basis of diversification programs in three areas of focus.
+
+					
+					</p>
+                </div>
+            </div>
+            <div class="company-right">
+                  <iframe width="503" height="315" src="https://www.youtube.com/embed/lZlcCbzFmes" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+        <div class="main-deposit">
+        	<div class="depost-one flipInY animated wow"data-wow-duration="2s" data-wow-delay="0.4s" style="visibility: visible;animation-duration: 1.5s;">
+            	<div class="deposit-head">
+                	<h5>RECENT DEPOSITs</h5>
+                    <img src="images/borderre.png"/>
+                </div>
+               	<div class="deposit-all">
+
+
+                    <div class="deposit-one">
+                    	<div class="depositrname">
+                        	<p>gkhtpneus</p>
+                        </div>
+                        <div class="deposit-dolar">
+                        	<p>$20.00</p>
+                        </div>
+                        <div class="deposit-by">
+                        	<img src="images/43.png">
+                        </div>
+                    </div>
+
+                    <div class="deposit-one">
+                    	<div class="depositrname">
+                        	<p>monimoni</p>
+                        </div>
+                        <div class="deposit-dolar">
+                        	<p>$20.00</p>
+                        </div>
+                        <div class="deposit-by">
+                        	<img src="images/56.png">
+                        </div>
+                    </div>
+
+                    <div class="deposit-one">
+                    	<div class="depositrname">
+                        	<p>MYHYIPSNET</p>
+                        </div>
+                        <div class="deposit-dolar">
+                        	<p>$200.00</p>
+                        </div>
+                        <div class="deposit-by">
+                        	<img src="images/48.png">
+                        </div>
+                    </div>
+
+                    <div class="deposit-one">
+                    	<div class="depositrname">
+                        	<p>coralli</p>
+                        </div>
+                        <div class="deposit-dolar">
+                        	<p>$300.00</p>
+                        </div>
+                        <div class="deposit-by">
+                        	<img src="images/48.png">
+                        </div>
+                    </div>
+
+                    <div class="deposit-one">
+                    	<div class="depositrname">
+                        	<p>lorraine</p>
+                        </div>
+                        <div class="deposit-dolar">
+                        	<p>$3.00</p>
+                        </div>
+                        <div class="deposit-by">
+                        	<img src="images/18.png">
+                        </div>
+                    </div>
+
+                    <div class="deposit-one">
+                    	<div class="depositrname">
+                        	<p>packard58</p>
+                        </div>
+                        <div class="deposit-dolar">
+                        	<p>$28.00</p>
+                        </div>
+                        <div class="deposit-by">
+                        	<img src="images/42.png">
+                        </div>
+                    </div>
+
+                    <div class="deposit-one">
+                    	<div class="depositrname">
+                        	<p>javex</p>
+                        </div>
+                        <div class="deposit-dolar">
+                        	<p>$320.00</p>
+                        </div>
+                        <div class="deposit-by">
+                        	<img src="images/56.png">
+                        </div>
+                    </div>
+
+                    <div class="deposit-one">
+                    	<div class="depositrname">
+                        	<p>brocilghe</p>
+                        </div>
+                        <div class="deposit-dolar">
+                        	<p>$250.00</p>
+                        </div>
+                        <div class="deposit-by">
+                        	<img src="images/56.png">
+                        </div>
+                    </div>
+
+                    <div class="deposit-one">
+                    	<div class="depositrname">
+                        	<p>abdulla146</p>
+                        </div>
+                        <div class="deposit-dolar">
+                        	<p>$55.00</p>
+                        </div>
+                        <div class="deposit-by">
+                        	<img src="images/18.png">
+                        </div>
+                    </div>
+
+                    <div class="deposit-one">
+                    	<div class="depositrname">
+                        	<p>knight</p>
+                        </div>
+                        <div class="deposit-dolar">
+                        	<p>$20.00</p>
+                        </div>
+                        <div class="deposit-by">
+                        	<img src="images/42.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+			
+            <div class="depost-one flipInY animated wow"data-wow-duration="2s" data-wow-delay="0.4s" style="visibility: visible;animation-duration: 1.5s;">
+            	<div class="deposit-head">
+                	<h5>RECENT withdrawals</h5>
+                    <img src="images/borderre.png"/>
+                </div>
+               	<div class="deposit-all">
+
+
+                    <div class="deposit-one">
+                    	<div class="depositrname">
+                        	<p>monimoni</p>
+                        </div>
+                        <div class="deposit-dolar">
+                        	<p>$1.90</p>
+                        </div>
+                        <div class="deposit-by">
+                        	<img src="images/56.png">
+                        </div>
+                    </div>
+
+
+                    <div class="deposit-one">
+                    	<div class="depositrname">
+                        	<p>MYHYIPSNET</p>
+                        </div>
+                        <div class="deposit-dolar">
+                        	<p>$6.00</p>
+                        </div>
+                        <div class="deposit-by">
+                        	<img src="images/48.png">
+                        </div>
+                    </div>
+
+
+                    <div class="deposit-one">
+                    	<div class="depositrname">
+                        	<p>Kelly</p>
+                        </div>
+                        <div class="deposit-dolar">
+                        	<p>$0.60</p>
+                        </div>
+                        <div class="deposit-by">
+                        	<img src="images/43.png">
+                        </div>
+                    </div>
+
+
+                    <div class="deposit-one">
+                    	<div class="depositrname">
+                        	<p>derto</p>
+                        </div>
+                        <div class="deposit-dolar">
+                        	<p>$60.00</p>
+                        </div>
+                        <div class="deposit-by">
+                        	<img src="images/18.png">
+                        </div>
+                    </div>
+
+
+                    <div class="deposit-one">
+                    	<div class="depositrname">
+                        	<p>derto</p>
+                        </div>
+                        <div class="deposit-dolar">
+                        	<p>$3.00</p>
+                        </div>
+                        <div class="deposit-by">
+                        	<img src="images/18.png">
+                        </div>
+                    </div>
+
+
+                    <div class="deposit-one">
+                    	<div class="depositrname">
+                        	<p>moonl</p>
+                        </div>
+                        <div class="deposit-dolar">
+                        	<p>$30.00</p>
+                        </div>
+                        <div class="deposit-by">
+                        	<img src="images/43.png">
+                        </div>
+                    </div>
+
+
+                    <div class="deposit-one">
+                    	<div class="depositrname">
+                        	<p>qour</p>
+                        </div>
+                        <div class="deposit-dolar">
+                        	<p>$10.00</p>
+                        </div>
+                        <div class="deposit-by">
+                        	<img src="images/48.png">
+                        </div>
+                    </div>
+
+
+                    <div class="deposit-one">
+                    	<div class="depositrname">
+                        	<p>asil</p>
+                        </div>
+                        <div class="deposit-dolar">
+                        	<p>$49.00</p>
+                        </div>
+                        <div class="deposit-by">
+                        	<img src="images/18.png">
+                        </div>
+                    </div>
+
+
+                    <div class="deposit-one">
+                    	<div class="depositrname">
+                        	<p>rokito</p>
+                        </div>
+                        <div class="deposit-dolar">
+                        	<p>$36.00</p>
+                        </div>
+                        <div class="deposit-by">
+                        	<img src="images/56.png">
+                        </div>
+                    </div>
+
+
+                    <div class="deposit-one">
+                    	<div class="depositrname">
+                        	<p>ramazan</p>
+                        </div>
+                        <div class="deposit-dolar">
+                        	<p>$13.00</p>
+                        </div>
+                        <div class="deposit-by">
+                        	<img src="images/48.png">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="depost-one flipInY animated wow"data-wow-duration="2s" data-wow-delay="0.4s" style="visibility: visible;animation-duration: 1.5s;">
+            	<div class="deposit-head">
+                	<h5>Top 10 Investors</h5>
+                    <img src="images/borderre.png"/>
+                </div>
+               	<div class="deposit-all">
+
+<iframe src="?a=top10" width="367" height="415" style="border:none" scrolling="no"></iframe>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="main-footer">
+	<div id="sub-footer">
+    	<div class="footer-one">
+        	<div class="footer-head">
+            	<h5>QUICK LINK</h5>
+                <img src="images/borderre.png" height="3" width="100%"/>
+            </div>
+            <div class="downf">
+            	<div class="fo-menu">
+                	<ul>
+                    
+                        <li><a href="?a=cust&page=about">About Us</a></li>
+
+                     	<li><a href="?a=rules">Terms and Conditions </a></li>
+   <li><a href="?a=news">Company News</a></li>
+
+<li><a href="?a=cust&page=banners">Promotion Banners</a></li>
+
+
+<li><a href="?a=cust&page=rate">Our rating</a></li>
+
+
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="footer-one">
+            <div class="footer-head">
+            	<h5>latest news</h5>
+                <img src="images/borderre.png" height="3" width="100%"/>
+            </div>
+            <div class="downf">
+            	<div class="news-head">
+                	<p>Hexagon3 Ltd Opens to the Public</p>
+                </div>
+                <div class="news-date">
+                	<p>Jun-16-2016 08:43:47 PM</p>
+                </div>
+                <div class="news-text">
+             <p>Hello and welcome to the Hexagon Investments site. I&#039;m very happy to make site available worldwide...</p>
+                </div>
+                <div class="all-news">
+                	<a href="?a=news">All News</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-one">
+        	<div class="footer-head">
+            	<h5>provide security</h5>
+                <img src="images/borderre.png" height="3" width="100%"/>
+            </div>
+            <div class="downf">
+            	<div class="security">
+                	<a href="#"><img src="images/ddos.png"/></a>
+                </div>
+                <div class="security">
+                	<a href="https://secure.sitelock.com/public/verify/hivx.biz" target="_blank" ><img src="images/site.png"/></a>
+                </div>
+                <div class="security">
+                	<a href="https://secure.comodo.com/ttb_searcher/trustlogo?v_querytype=W&v_shortname=SC3&v_search=hivx.biz&x=6&y=5" target="_blank"><img src="images/comodo.png"/></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-one">
+        	<div class="footer-head">
+            	<h5>company address</h5>
+                <img src="images/borderre.png" height="3" width="100%"/>
+            </div>
+            <div style="text-align: center;" class="downf">
+            	<div class="add">
+                	<p>32 Queens Terrace, Isleworth</p>
+                </div>
+                <div class="add">
+                	<p>London, TW7 7DB, United Kingdom</p>
+                </div>
+             
+                <div class="add">
+                	<p>Company No. 10176609</p>
+                </div>
+                <div class="add">
+                	<p>Email: admin@hivx.biz</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="clr"></div>
+<div id="main-down">
+	<div id="sub-down">
+    	<div class="down-left">
+        	<div class="copyright">
+            	<p>COPYRIGHT © 2016 HEXAGON3 LIMITED,  ALL RIGHTS RESERVED.</p>
+            </div>
+          
+        </div>
+        <div class="pay">
+        	<ul>
+            	<li><a href="#"><img src="images/pm.png"/ width="100"></a></li>
+                <li><a href="#"><img src="images/payeer.png" width="100" style="    margin-top: -2px;"/></a></li>
+                <li style="margin-top: -3px;"><a href="#"><img src="images/bitcoin.png" width="100"/></a></li>
+                <li style="margin-top: -3px;"><a href="#"><img src="images/nixmoney.png" width="100"/></a></li>
+      <li style="margin-top: -3px;"><a href="#"><img src="images/advcash.png" style="    margin-top: -2px;" width="100"/></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5713621a0702fb561cda4c0e/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
+</script>
+<!--End of Tawk.to Script-->
+
+
+</body>
+</html>
